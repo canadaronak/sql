@@ -16,7 +16,7 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
-```
+type1 has local address architectures and type2 has international address architecture. For example, customer needs to select their country first based on the country address architecture could be change. If the customer is in canada then type1 architecture shows the Canada province list, line1, line2, city, postal code and etc. but if customer select any other country then the Canada then type2 architecture shows the Address line1, line2, line3(optional), city, province/state. Based on the type1 and type 2 dimensions has been changed. 
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://imgur.com/a/u0m8fX6)
@@ -24,7 +24,12 @@ Review the AdventureWorks Schema [here](https://imgur.com/a/u0m8fX6)
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
 Your answer...
-```
+In my logical model, 
+- I didn't add more details in each table.
+- I didn't assign foreign key in correct ways. Looks like, I need to clear foreign key concepts.
+- I didn't add color schema for each table. Which looks good and differntiate in more better ways. 
+- Yes, I have updated shifts_id table in question2 answer after refering this schema. 
+
 
 # Criteria
 
